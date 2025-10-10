@@ -1,0 +1,79 @@
+name: empatt
+description: "Employee Attendance Tracking System with GPS, Face Recognition, and Firebase"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10
+
+  # Firebase
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.1
+  firebase_storage: ^12.3.6
+
+  # State Management
+  provider: ^6.1.2
+
+  # GPS & Location
+  geolocator: ^13.0.2
+  geocoding: ^4.0.0
+  google_maps_flutter: ^2.10.0
+
+  # Face Recognition
+  google_mlkit_face_detection: ^0.13.1
+  camera: ^0.11.0+2
+  image_picker: ^1.1.2
+
+  # PDF & Excel Export
+  pdf: ^3.11.1
+  printing: ^5.13.3
+  excel: ^4.0.6
+
+  # Date & Time
+  intl: ^0.19.0
+  table_calendar: ^3.1.2
+
+  # Charts
+  fl_chart: ^0.69.2
+
+  # Utilities
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.5
+  image: ^4.3.0
+  permission_handler: ^11.3.1
+
+  # UI Components
+  flutter_spinkit: ^5.2.1
+  fluttertoast: ^8.2.8
+  file_picker: ^8.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# flutter:
+#   uses-material-design: true
+
+#   assets:
+#     - assets/images/
+#     - assets/face_models/
